@@ -15,7 +15,8 @@ Reference: https://github.com/dwyl/start-here/issues/53
   + [ ] Do some [basic setup](#basic-text-editor-setup) to make your life a little easier
 
 ## Text Editor
-
+It's entirely up to you which text editor you use, but you will inevitably need one.    
+At the time of writing, at _dwyl_ we use [Atom editor](https://atom.io/) (open source, NodeJS based editor) though we work with a lot of people who use [Sublime Text](http://www.sublimetext.com/) (and have used this ourselves in the past).
 
 ### Basic text editor setup
 + ** Setting up [_soft tabs_](https://opensourcehacker.com/2012/05/13/never-use-hard-tabs/)** (indentation)
