@@ -10,10 +10,33 @@ This also includes some recommendations of things we personally favour of course
 Reference: https://github.com/dwyl/start-here/issues/53
 
 ## Checklist
-+ [ ] Sign up for a [Github account](https://github.com/join) and [learn how to use it](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
++ [ ] Sign up for a [Github account](https://github.com/join)
+  + [ ] [Set up your computer](#basic-git-setup) 
+  + [ ] Learn to [use Git on the command line](git-in-the-terminal)
+  + [Add list of learning resources here] and [learn how to use it](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
 + [ ] Get yourself a [text editor](#text-editor)
   + [ ] Do some [basic setup](#basic-text-editor-setup) to make your life a little easier
   + [ ] Learn a handful of the [most useful keyboard shortcuts](text-editor-keyboard-shortcuts)
+
+## Git and GitHub
+We use Git and [Github](https://en.wikipedia.org/wiki/GitHub) exclusively for our version control and to share our work with the world.   
+Understanding the [difference between the two](https://www.codefellows.org/blog/git-and-github-what-s-the-difference) is also helpful :blush:
+
+### Basic Git setup   
++ Sign up for a [Github account](https://github.com/join)
++ **[Set up Git](https://help.github.com/articles/set-up-git/) on your computer**
+  + We recommend you [**authenticate with SSH**](https://help.github.com/articles/set-up-git/#connecting-over-ssh) as this is more secure and means you _won't have to type in your password every time you push to GitHub_
+  + _Note:_ This also means that when you _clone_ a repo, you'll need to use the **SSH clone URL** (thanks [@tsop14](https://github.com/tsop14) for the screenshot!)
+  
+  ![change-to-ssh](https://cloud.githubusercontent.com/assets/8484757/9233887/8ff29ec0-412d-11e5-84ca-e0b92e7cef6d.png)
+ 
+<a name="git-in-the-terminal"/>
++ **Learn to use Git in the terminal**
+  + Although [Git has a desktop client](https://desktop.github.com/) we recommend that you learn to us it in the terminal - this is _much_ faster in the long run and will serve you 
+  + _Note:_ There are many _themes_ which you may have hear of (like [Oh My Zsh](http://ohmyz.sh/)) that aim to add some functionality and shortcuts to your terminal - **we _don't_ recommend you use any terminal themes when you're starting out**. Until you know what you're doing in the terminal, relying on these keeps you from becoming proficient in the basics.
+  + Currently a good number of us use [iTerm](http://www.iterm2.com/) mostly for the conveninence of the panes :+1:
+![iterm-screenshot](https://cloud.githubusercontent.com/assets/4185328/9831158/56d8cb90-5943-11e5-99ec-9fb1a5907f8a.png)
+
 
 ## Text Editor
 It's entirely up to you which text editor you use, but you will inevitably need one.    
@@ -34,9 +57,9 @@ At the time of writing, at _dwyl_ we use [Atom editor](https://atom.io/) (open s
 + **Install at least a basic [linter](http://stackoverflow.com/questions/8503559/what-is-linting)** to your editor
   
 ### Most used text editor keyboard shortcuts  
-**Learn the keyboard shortcuts for:** 
+Each person's most used shortcuts will vary of course, but here are some of the things we suggest **learn the keyboard shortcuts for:** 
   + Select the current word (usually `cmd + D`)
-  + Delete current line
+  + Delete current line (usually `ctrl + shift + K`)
   + Indenting a line or a whole block of code at once
   + [Column editing](https://atom.io/docs/v1.0.11/using-atom-editing-and-deleting-text#multiple-cursors-and-selections) 
   + [Moving a line](https://atom.io/docs/v1.0.11/using-atom-editing-and-deleting-text#basic-manipulation) or block of code up and down the page
