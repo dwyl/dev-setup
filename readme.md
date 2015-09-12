@@ -1,13 +1,21 @@
 # A Guide to setting up your developer environment
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/setup/issues)
+
+This repo should be **constantly evolving**. Please open issues and pull requests to include anything you think is relevant.
+
+_Note:_ The intention is **not** to include every fancy script, tip and trick under the sun, this is about **basic setup and getting going when you're new** and already have a _steep_ learning curve!
+
+## Who is this for?
+People who are new to coding.    
+Particularly people who have learnt online using inbuilt browser-based editors and tools (often the case in online courses) and have **not set up their own environment on their own computers** before.
 
 ## Why?
 When we were teaching ourselves how to code it took us some time, talking to more experienced developers and trying things out to **pick up on all the small things that make our lives easier as developers**.   
 We wanted there to be a single place where new developers could go to find these quickly so they can **get past the setup and down to the business of coding**.
 
-_Note: @dwyl we use full stack Javascript.
-This also includes some recommendations of things we personally favour of course!_
 
-Reference: https://github.com/dwyl/start-here/issues/53
+_Note: @dwyl we use full stack Javascript.
+This includes some recommendations of things we personally favour of course!_
 
 ## Checklist
 
@@ -20,7 +28,8 @@ Reference: https://github.com/dwyl/start-here/issues/53
   + [ ] [Set it up on your computer](#basic-git-setup) 
   + [ ] Learn to use Git particularly [on the command line](git-in-the-terminal)
 + [ ] Make sure you're comfortable with your [terminal setup](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
-  
+
+**Next steps?** If you want to [contribute to dwyl projects](https://github.com/dwyl/contributing), get comfortable with [our stack](https://github.com/dwyl/technology-stack) and **open issues whenever you have questions**!
   
 ## Text Editor
 It's entirely up to you which text editor you use, but you will inevitably need one.    
