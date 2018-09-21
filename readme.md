@@ -22,7 +22,7 @@ This includes some recommendations of things we personally favour of course!_
 + **Text Editor**
   + [ ] Get yourself a [text editor](#text-editor)
   + [ ] Do some [basic setup](#basic-text-editor-setup) to make your life a little easier
-  + [ ] Learn a handful of the [most useful keyboard shortcuts](text-editor-keyboard-shortcuts)
+  + [ ] Learn a handful of the [most useful keyboard shortcuts](#our-most-used-text-editor-keyboard-shortcuts)
 + **Git & GitHub**
   + [ ] Sign up for a [Github account](https://github.com/join)
   + [ ] [Set it up on your computer](#basic-git-setup) 
