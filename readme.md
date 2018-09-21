@@ -69,7 +69,7 @@ Understanding the [difference between the two](https://www.codefellows.org/blog/
   + We recommend you [**authenticate with SSH**](https://help.github.com/articles/set-up-git/#connecting-over-ssh) as this is more secure and means you _won't have to type in your password every time you push to GitHub_
   + _Note:_ This also means that when you _clone_ a repo, you'll need to use the **SSH clone URL** (thanks [@tsop14](https://github.com/tsop14) for the screenshot!)
   
-  ![change-to-ssh](https://cloud.githubusercontent.com/assets/8484757/9233887/8ff29ec0-412d-11e5-84ca-e0b92e7cef6d.png)
+  ![change-to-ssh](https://user-images.githubusercontent.com/21698271/45860770-00daf280-bd37-11e8-92f8-34bb1ddf8152.png)
  
 ### Learn how to use Git + GitHub 
 + There are many resources online, [here are a few we like](https://github.com/dwyl/start-here#git--github)
