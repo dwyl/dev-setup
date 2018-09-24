@@ -36,11 +36,6 @@ It's entirely up to you which text editor you use, but you will inevitably need 
 At the time of writing, at _dwyl_ we use [Atom editor](https://atom.io/) (open source, NodeJS based editor) though we work with a lot of people who use [Sublime Text](http://www.sublimetext.com/) (and have used this ourselves in the past).
 
 ### Basic text editor setup
-+ ** Set up [_soft tabs_](https://opensourcehacker.com/2012/05/13/never-use-hard-tabs/)** (indentation)
-  + You can usually set this up in the _Preferences_ or _Settings_ of your favourite text editor so you never have to think about it again (example below on [Atom editor](https://atom.io/))    
-<img width="507" alt="atom-soft-tab-preferences-menu" src="https://cloud.githubusercontent.com/assets/4185328/9154618/a6598690-3e91-11e5-939b-2c03cf3c7ffc.png">     
-
-
 + **Set up a guide (or line) to show on your page at the 80 character mark** so you know [when you go past 80 characters (or columns) on a single line](http://programmers.stackexchange.com/questions/604/is-the-80-character-limit-still-relevant-in-times-of-widescreen-monitors)
   + Useful for _readability_, particularly in code snippets where you would otherwise end up with a scroll bar
   + You should also be able to set this up in your favourite text editor's _Preferences_ (example below again on Atom editor - note, I also like to set up my editor to soft wrap at this line length so I can read other people's code more easily)    
