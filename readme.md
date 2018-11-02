@@ -1,5 +1,5 @@
 # A Guide to setting up your developer environment
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/setup/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/dev-setup/issues)
 
 This repo should be **constantly evolving**. Please open issues and pull requests to include anything you think is relevant.
 
