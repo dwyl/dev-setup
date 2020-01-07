@@ -59,8 +59,6 @@ _Note:_ Spectacle is only for Mac in alternative for windows you have AquaSnap t
 
 First of all access the website :https://www.spectacleapp.com/
 
-![Spectacle](https://cdn1.imggmi.com/uploads/2020/1/7/00355c30da035c3f844a03854784892c-full.png)
-
 After Clicking on 'Download Spectacle' you just need to add to your applications folder.
 
 # Spectacle Shortcuts
