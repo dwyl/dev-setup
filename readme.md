@@ -31,6 +31,45 @@ This includes some recommendations of things we personally favour of course!_
 
 **Next steps?** If you want to [contribute to dwyl projects](https://github.com/dwyl/contributing), get comfortable with [our stack](https://github.com/dwyl/technology-stack) and **open issues whenever you have questions**!
   
+# Spectacle
+
+
+![Spectacle](https://i.postimg.cc/zBZqm4cQ/Screen-Shot-2015-05-09-at-3-11-50-AM.png)
+
+## Why ?
+
+
+So a lot of you may have lots of open windows at once.
+   You got code running and then you got the documentation for the code and you got Google stuff opened.
+  And then "Stack overflow" to search for errors or doubts.
+  Everything becomes a mess and a nightmare with so many pages open.
+  The simplest way to organize everything is to use the spectacle.
+
+## What ?
+
+   Spectacle is simply an app that helps you managing your windows.
+   Lets you modify whatever you want to do to your windows.
+   Keyboard shortcuts are the fastest way to communicate with your computer.
+   If you want to be super fast and efficient "You need to learn how to use Spectacle".
+   Once you learn some of the shortcuts you will just need to use your "Muscle Memory" to use them.
+
+# Spectacle Installation
+
+First of all access the website :https://www.spectacleapp.com/
+
+![Spectacle](https://i.postimg.cc/28frXpZL/9688-AE1-C-A633-427-D-91-EE-56-CABA0-DF2-D6-1-105-c.jpg)
+
+After Clicking on 'Download Spectacle' you just need to add to your applications folder.
+
+# Spectacle Shortcuts
+
+
+![Spectacle](https://i.postimg.cc/sXpXX5Qw/Screen-Shot-2020-01-07-at-09-44-10.png)
+
+You can "Always" edit your own shortcuts going to preferences and click on the shortcut you want to change.
+
+![Spectacle](https://i.postimg.cc/c1tHryYr/Screen-Shot-2020-01-07-at-09-54-22.png)
+  
 ## Text Editor
 It's entirely up to you which text editor you use, but you will inevitably need one.    
 At the time of writing, at _dwyl_ we use [Atom editor](https://atom.io/) (open source, NodeJS based editor) though we work with a lot of people who use [Sublime Text](http://www.sublimetext.com/) (and have used this ourselves in the past).
