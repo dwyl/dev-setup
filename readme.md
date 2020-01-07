@@ -53,11 +53,13 @@ So a lot of you may have lots of open windows at once.
    If you want to be super fast and efficient "You need to learn how to use Spectacle".
    Once you learn some of the shortcuts you will just need to use your "Muscle Memory" to use them.
 
+_Note:_ Spectacle is only for Mac in alternative for windows you have AquaSnap that works the same way.
+
 # Spectacle Installation
 
 First of all access the website :https://www.spectacleapp.com/
 
-![Spectacle](https://i.postimg.cc/28frXpZL/9688-AE1-C-A633-427-D-91-EE-56-CABA0-DF2-D6-1-105-c.jpg)
+![Spectacle](https://cdn1.imggmi.com/uploads/2020/1/7/00355c30da035c3f844a03854784892c-full.png)
 
 After Clicking on 'Download Spectacle' you just need to add to your applications folder.
 
