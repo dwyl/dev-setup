@@ -36,7 +36,7 @@ This includes some recommendations of things we personally favour of course!_
 
 ![Spectacle](https://i.postimg.cc/zBZqm4cQ/Screen-Shot-2015-05-09-at-3-11-50-AM.png)
 
-## Why ?
+### Why ?
 
 
 So a lot of you may have lots of open windows at once.
