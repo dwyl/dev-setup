@@ -45,7 +45,7 @@ So a lot of you may have lots of open windows at once.
   Everything becomes a mess and a nightmare with so many pages open.
   The simplest way to organize everything is to use the spectacle.
 
-## What ?
+### What ?
 
    Spectacle is simply an app that helps you managing your windows.
    Lets you modify whatever you want to do to your windows.
