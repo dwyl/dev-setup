@@ -64,7 +64,7 @@ First of all access the website :https://www.spectacleapp.com/
 
 After Clicking on 'Download Spectacle' you just need to add to your applications folder.
 
-# Spectacle Shortcuts
+### Spectacle Shortcuts
 
 
 ![Spectacle](https://i.postimg.cc/sXpXX5Qw/Screen-Shot-2020-01-07-at-09-44-10.png)
@@ -122,4 +122,3 @@ Understanding the [difference between the two](https://www.codefellows.org/blog/
 + There are many _themes_ which you may have heard of (like [Oh My Zsh](http://ohmyz.sh/)) that aim to add some functionality and shortcuts to your terminal - **we _don't_ recommend you use any terminal themes when you're starting out**. Until you know what you're doing in the terminal, relying on these keeps you from becoming proficient in the basics.
 + Similarly, a good number of us currently use [iTerm](http://www.iterm2.com/) as our terminal emulator but you really don't need to have one straight away - iTerm just provides some nice features like split panes :+1:
 ![iterm-screenshot](https://cloud.githubusercontent.com/assets/4185328/9831158/56d8cb90-5943-11e5-99ec-9fb1a5907f8a.png)
-
