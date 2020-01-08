@@ -31,7 +31,7 @@ This includes some recommendations of things we personally favour of course!_
 
 **Next steps?** If you want to [contribute to dwyl projects](https://github.com/dwyl/contributing), get comfortable with [our stack](https://github.com/dwyl/technology-stack) and **open issues whenever you have questions**!
   
-# Spectacle
+## Spectacle
 
 
 ![Spectacle](https://i.postimg.cc/zBZqm4cQ/Screen-Shot-2015-05-09-at-3-11-50-AM.png)
