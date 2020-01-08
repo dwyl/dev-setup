@@ -55,7 +55,7 @@ So a lot of you may have lots of open windows at once.
 
 _Note:_ Spectacle is only for Mac in alternative for windows you have AquaSnap that works the same way.
 
-# Spectacle Installation
+### Spectacle Installation
 
 First of all access the website :https://www.spectacleapp.com/
 
