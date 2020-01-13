@@ -88,6 +88,39 @@ At the time of writing, at _dwyl_ we use [Atom editor](https://atom.io/) (open s
   + You should also be able to set this up in your favourite text editor's _Preferences_ (example below again on Atom editor - note, I also like to set up my editor to soft wrap at this line length so I can read other people's code more easily)    
   <img width="511" alt="80-character-line-guide-setup" src="https://cloud.githubusercontent.com/assets/4185328/9826015/45796748-58cf-11e5-8a5d-db7350a8eb82.png">
 
+## How to connect Github to Atom step-by-step
+
+First of all you need to create a Github Account and then create a new repository, name it as you wish.</br>
+
+Now you have a link to your repository and instructions to how to create a new repository in the command line.</br>
+Now go to Atom and press cmd+SHIFT+P and you enter Github:clone and then paste your link.
+
+![Screen Shot 2020-01-12 at 22 41 04](https://user-images.githubusercontent.com/27420533/72227070-45277d00-3590-11ea-90f9-6e78998bf30e.png)
+
+A couple a seconds later you have your repository on the left side of the screen.</br>
+
+![Screen Shot 2020-01-12 at 22 42 59](https://user-images.githubusercontent.com/27420533/72227087-638d7880-3590-11ea-920e-643b8433d193.png)
+
+
+The next thing to do is authorize Github for atom so go to github.atom.io/login.</br>
+Just make the login with your information and copy the GitHub token after having your GitHub token copied go to Atom to the GitHub tab in the right lower corner and you will see a login just paste your token there and now you are connected to GitHub.</br>
+
+So now if you create a file and edit with your own text you can upload the file to GitHub by going to the git tab and Stage the changes in your file you have to give a commit message the first time you edit the file.
+Then click on Commit to master.
+
+
+![Screen Shot 2020-01-12 at 23 21 55](https://user-images.githubusercontent.com/27420533/72227281-86209100-3592-11ea-96a2-06ba543fa6a6.png)
+
+
+Now click on master and then on new branch and call it whatever you want then click on publish.
+You will have to enter your credentials again to validate those changes.
+
+![Screen Shot 2020-01-12 at 23 24 13](https://user-images.githubusercontent.com/27420533/72227295-bc5e1080-3592-11ea-95e3-524c86a80757.png)
+
+
+If you go on your created repository and press F5 you should see those changes.   
+
+
 
 + **Install at least a basic [linter](http://stackoverflow.com/questions/8503559/what-is-linting)** to your editor
   
