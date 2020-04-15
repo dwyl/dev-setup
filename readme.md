@@ -14,8 +14,9 @@ When we were teaching ourselves how to code it took us some time, talking to mor
 We wanted there to be a single place where new developers could go to find these quickly so they can **get past the setup and down to the business of coding**.
 
 
-_Note: @dwyl we use full stack Javascript.
-This includes some recommendations of things we personally favour of course!_
+_Note: @dwyl we use [a specific technology stack](https://github.com/dwyl/technology-stack).  
+**Installing** software [is optional](https://github.com/dwyl/dev-setup/issues/3),
+but this repo includes some recommendations of things we favour and use @dwyl._
 
 ## Checklist
 
