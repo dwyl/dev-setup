@@ -25,54 +25,39 @@ This includes some recommendations of things we personally favour of course!_
   + [ ] Learn a handful of the [most useful keyboard shortcuts](#our-most-used-text-editor-keyboard-shortcuts)
 + **Git & GitHub**
   + [ ] Sign up for a [Github account](https://github.com/join)
-  + [ ] [Set it up on your computer](#basic-git-setup) 
+  + [ ] Enable 2 Factor Authentication
+  ([2FA](https://help.github.com/en/github/authenticating-to-github/about-two-factor-authentication))
+  for Github to further protect not only your own account but also any organisations
+   that you're a part of from malicious intent
+  ![setup-2factor-auth](https://user-images.githubusercontent.com/4185328/79356313-b16e9f80-7f36-11ea-8645-d0ee1ea36853.png)
+  + [ ] [Set it up on your computer](#basic-git-setup)
   + [ ] Learn to use Git particularly [on the command line](git-in-the-terminal)
 + [ ] Make sure you're comfortable with your [terminal setup](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
 
 **Next steps?** If you want to [contribute to dwyl projects](https://github.com/dwyl/contributing), get comfortable with [our stack](https://github.com/dwyl/technology-stack) and **open issues whenever you have questions**!
-  
-## Spectacle
 
+## Git and GitHub
+We use Git and [Github](https://en.wikipedia.org/wiki/GitHub) exclusively for our version control and to share our work with the world.   
+Understanding the [difference between the two](https://www.codefellows.org/blog/git-and-github-what-s-the-difference) is also helpful :blush:
 
-![Spectacle](https://i.postimg.cc/zBZqm4cQ/Screen-Shot-2015-05-09-at-3-11-50-AM.png)
+### Basic Git setup   
++ Sign up for a [Github account](https://github.com/join)
++ **[Set up Git](https://help.github.com/articles/set-up-git/) on your computer**
+  + We recommend you [**authenticate with SSH**](https://help.github.com/articles/set-up-git/#connecting-over-ssh) as this is more secure and means you _won't have to type in your password every time you push to GitHub_
+  + _Note:_ This also means that when you _clone_ a repo, you'll need to use the **SSH clone URL** (thanks [@tsop14](https://github.com/tsop14) for the screenshot!)
 
-### Why ?
+  ![change-to-ssh](https://user-images.githubusercontent.com/21698271/45860770-00daf280-bd37-11e8-92f8-34bb1ddf8152.png)
 
+### Learn how to use Git + GitHub
++ There are many resources online, [here are a few we like](https://github.com/dwyl/start-here#git--github)
+<a name="git-in-the-terminal"/>
++ Although [Git has a desktop client](https://desktop.github.com/) we **recommend that you learn to use it on the command line** - this is _much_ faster in the long run and will serve you well as a developer
 
-So a lot of you may have lots of open windows at once.
-   You got code running and then you got the documentation for the code and you got Google stuff opened.
-  And then "Stack overflow" to search for errors or doubts.
-  Everything becomes a mess and a nightmare with so many pages open.
-  The simplest way to organize everything is to use the spectacle.
+## Terminal
++ There are many _themes_ which you may have heard of (like [Oh My Zsh](http://ohmyz.sh/)) that aim to add some functionality and shortcuts to your terminal - **we _don't_ recommend you use any terminal themes when you're starting out**. Until you know what you're doing in the terminal, relying on these keeps you from becoming proficient in the basics.
++ Similarly, a good number of us currently use [iTerm](http://www.iterm2.com/) as our terminal emulator but you really don't need to have one straight away - iTerm just provides some nice features like split panes :+1:
+![iterm-screenshot](https://cloud.githubusercontent.com/assets/4185328/9831158/56d8cb90-5943-11e5-99ec-9fb1a5907f8a.png)
 
-### What ?
-
-   Spectacle is simply an app that helps you managing your windows.
-   Lets you modify whatever you want to do to your windows.
-   Keyboard shortcuts are the fastest way to communicate with your computer.
-   If you want to be super fast and efficient "You need to learn how to use Spectacle".
-   Once you learn some of the shortcuts you will just need to use your "Muscle Memory" to use them.
-
-_Note:_ Spectacle is only for Mac in alternative for windows you have AquaSnap that works the same way.
-
-### Spectacle Installation
-
-First of all access the website :https://www.spectacleapp.com/
-
-![Screen Shot 2020-01-08 at 09 45 50](https://user-images.githubusercontent.com/27420533/71968207-596c2280-31fc-11ea-849c-abff957b4980.png)
-
-
-After Clicking on 'Download Spectacle' you just need to add to your applications folder.
-
-### Spectacle Shortcuts
-
-
-![Spectacle](https://i.postimg.cc/sXpXX5Qw/Screen-Shot-2020-01-07-at-09-44-10.png)
-
-You can "Always" edit your own shortcuts going to preferences and click on the shortcut you want to change.
-
-![Spectacle](https://i.postimg.cc/c1tHryYr/Screen-Shot-2020-01-07-at-09-54-22.png)
-  
 ## Text Editor
 It's entirely up to you which text editor you use, but you will inevitably need one.    
 At the time of writing, at _dwyl_ we use [Atom editor](https://atom.io/) (open source, NodeJS based editor) though we work with a lot of people who use [Sublime Text](http://www.sublimetext.com/) (and have used this ourselves in the past).
@@ -123,35 +108,55 @@ If you go on your created repository and press F5 you should see those changes.
 
 
 + **Install at least a basic [linter](http://stackoverflow.com/questions/8503559/what-is-linting)** to your editor
-  
+
 ### Our most used text editor keyboard shortcuts  
-Each person's most used shortcuts will vary of course, but here are some of the things we suggest **learn the keyboard shortcuts for:** 
+Each person's most used shortcuts will vary of course, but here are some of the things we suggest **learn the keyboard shortcuts for:**
   + Select the current word (usually `cmd + D`)
   + Delete current line (usually `ctrl + shift + K`)
   + Indenting a line or a whole block of code at once
-  + [Column editing](https://atom.io/docs/v1.0.11/using-atom-editing-and-deleting-text#multiple-cursors-and-selections) 
+  + [Column editing](https://atom.io/docs/v1.0.11/using-atom-editing-and-deleting-text#multiple-cursors-and-selections)
   + [Moving a line](https://atom.io/docs/v1.0.11/using-atom-editing-and-deleting-text#basic-manipulation) or block of code up and down the page
   + Changing the [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) when required
   + Toggle between the different views (e.g. hide/show the file tree view to gain more screen real estate)
 
-## Git and GitHub
-We use Git and [Github](https://en.wikipedia.org/wiki/GitHub) exclusively for our version control and to share our work with the world.   
-Understanding the [difference between the two](https://www.codefellows.org/blog/git-and-github-what-s-the-difference) is also helpful :blush:
+## Spectacle
 
-### Basic Git setup   
-+ Sign up for a [Github account](https://github.com/join)
-+ **[Set up Git](https://help.github.com/articles/set-up-git/) on your computer**
-  + We recommend you [**authenticate with SSH**](https://help.github.com/articles/set-up-git/#connecting-over-ssh) as this is more secure and means you _won't have to type in your password every time you push to GitHub_
-  + _Note:_ This also means that when you _clone_ a repo, you'll need to use the **SSH clone URL** (thanks [@tsop14](https://github.com/tsop14) for the screenshot!)
-  
-  ![change-to-ssh](https://user-images.githubusercontent.com/21698271/45860770-00daf280-bd37-11e8-92f8-34bb1ddf8152.png)
- 
-### Learn how to use Git + GitHub 
-+ There are many resources online, [here are a few we like](https://github.com/dwyl/start-here#git--github)
-<a name="git-in-the-terminal"/>
-+ Although [Git has a desktop client](https://desktop.github.com/) we **recommend that you learn to use it on the command line** - this is _much_ faster in the long run and will serve you well as a developer
 
-## Terminal
-+ There are many _themes_ which you may have heard of (like [Oh My Zsh](http://ohmyz.sh/)) that aim to add some functionality and shortcuts to your terminal - **we _don't_ recommend you use any terminal themes when you're starting out**. Until you know what you're doing in the terminal, relying on these keeps you from becoming proficient in the basics.
-+ Similarly, a good number of us currently use [iTerm](http://www.iterm2.com/) as our terminal emulator but you really don't need to have one straight away - iTerm just provides some nice features like split panes :+1:
-![iterm-screenshot](https://cloud.githubusercontent.com/assets/4185328/9831158/56d8cb90-5943-11e5-99ec-9fb1a5907f8a.png)
+![Spectacle](https://i.postimg.cc/zBZqm4cQ/Screen-Shot-2015-05-09-at-3-11-50-AM.png)
+
+### Why ?
+
+
+So a lot of you may have lots of open windows at once.
+   You got code running and then you got the documentation for the code and you got Google stuff opened.
+  And then "Stack overflow" to search for errors or doubts.
+  Everything becomes a mess and a nightmare with so many pages open.
+  The simplest way to organize everything is to use the spectacle.
+
+### What ?
+
+   Spectacle is simply an app that helps you managing your windows.
+   Lets you modify whatever you want to do to your windows.
+   Keyboard shortcuts are the fastest way to communicate with your computer.
+   If you want to be super fast and efficient "You need to learn how to use Spectacle".
+   Once you learn some of the shortcuts you will just need to use your "Muscle Memory" to use them.
+
+_Note:_ Spectacle is only for Mac in alternative for windows you have AquaSnap that works the same way.
+
+### Spectacle Installation
+
+First of all access the website :https://www.spectacleapp.com/
+
+![Screen Shot 2020-01-08 at 09 45 50](https://user-images.githubusercontent.com/27420533/71968207-596c2280-31fc-11ea-849c-abff957b4980.png)
+
+
+After Clicking on 'Download Spectacle' you just need to add to your applications folder.
+
+### Spectacle Shortcuts
+
+
+![Spectacle](https://i.postimg.cc/sXpXX5Qw/Screen-Shot-2020-01-07-at-09-44-10.png)
+
+You can "Always" edit your own shortcuts going to preferences and click on the shortcut you want to change.
+
+![Spectacle](https://i.postimg.cc/c1tHryYr/Screen-Shot-2020-01-07-at-09-54-22.png)
