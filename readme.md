@@ -29,7 +29,7 @@ This includes some recommendations of things we personally favour of course!_
   ([2FA](https://help.github.com/en/github/authenticating-to-github/about-two-factor-authentication))
   for Github to further protect not only your own account but also any organisations
    that you're a part of from malicious intent
-  ![Screenshot 2020-04-15 at 16 30 55](https://user-images.githubusercontent.com/4185328/79356313-b16e9f80-7f36-11ea-8645-d0ee1ea36853.png)
+  ![setup-2factor-auth](https://user-images.githubusercontent.com/4185328/79356313-b16e9f80-7f36-11ea-8645-d0ee1ea36853.png)
   + [ ] [Set it up on your computer](#basic-git-setup)
   + [ ] Learn to use Git particularly [on the command line](git-in-the-terminal)
 + [ ] Make sure you're comfortable with your [terminal setup](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
