@@ -16,7 +16,8 @@ We wanted there to be a single place where new developers could go to find these
 
 _Note: @dwyl we use [a specific technology stack](https://github.com/dwyl/technology-stack).  
 **Installing** software [is optional](https://github.com/dwyl/dev-setup/issues/3),
-but this repo includes some recommendations of things we favour and use @dwyl._
+but it does make you more effective so we highly recommend it.  
+This repo includes some recommendations of things we favour and use @dwyl._
 
 ## Checklist
 
