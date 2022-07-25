@@ -1,28 +1,145 @@
-# A Guide to setting up your developer environment
+<div align="center">
+
+# A Guide to Setting Up Your Dev Environment
+
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/dev-setup/issues)
 
-This repo should be **constantly evolving**. Please open issues and pull requests to include anything you think is relevant.
+![tianyi-ma-WiONHd_zYI4-unsplash](https://user-images.githubusercontent.com/194400/180770906-938c8083-28fb-4c03-872f-3a636376f15f.jpg)
 
-_Note:_ The intention is **not** to include every fancy script, tip and trick under the sun, this is about **basic setup and getting going when you're new** and already have a _steep_ learning curve!
+</div>
 
-## Who is this for?
-People who are new to coding.    
-Particularly people who have learnt online using inbuilt browser-based editors and tools (often the case in online courses) and have **not set up their own environment on their own computers** before.
+- [A Guide to Setting Up Your Dev Environment](#a-guide-to-setting-up-your-dev-environment)
+- [Why?](#why)
+- [What?](#what)
+- [Who?](#who)
+  - [Why?](#why-1)
+  - [Checklist](#checklist)
+    - [Web Browser](#web-browser)
+    - [Homebrew](#homebrew)
+    - [Text Editor](#text-editor)
+    - [Git + GitHub](#git--github)
+  - [Git and GitHub](#git-and-github)
+    - [Basic Git setup](#basic-git-setup)
+    - [Learn how to use Git + GitHub](#learn-how-to-use-git--github)
+    - [Terminal](#terminal)
+  - [Text Editor](#text-editor-1)
+    - [Basic text editor setup](#basic-text-editor-setup)
+  - [How to connect Github to Atom step-by-step](#how-to-connect-github-to-atom-step-by-step)
+    - [Our most used text editor keyboard shortcuts](#our-most-used-text-editor-keyboard-shortcuts)
+  - [Spectacle](#spectacle)
+    - [Why ?](#why-)
+    - [What ?](#what-)
+    - [Spectacle Installation](#spectacle-installation)
+    - [Spectacle Shortcuts](#spectacle-shortcuts)
+
+
+# Why?
+
+Setting up a software development computer can take a _long_ time. ⏳ <br />
+We need to streamline the process
+so that we can start work as quickly as possible.
+This doc outlines all the steps we take to setup 
+our system.
+
+If you find it helpful,
+please 
+[⭐](https://github.com/dwyl/dev-setup/stargazers) 
+the repo
+to let us know.
+Thanks.
+
+
+# What?
+
+This repo contains the tools we use.
+
+Please open issues and pull requests to include anything you think is relevant.
+
+> _Note:_ The intention is **not** to include every fancy script, 
+tip and trick under the sun, 
+this is about **basic setup and getting going when you're new** 
+and already have a _steep_ learning curve!
+
+If you have a tool or setup step
+you think we should be including/using,
+[please open an issue](https://github.com/dwyl/dev-setup/issues)
+to let us know about it!
+
+# Who?
+
+1. People who are new to coding.    
+Particularly people who have learnt online 
+using inbuilt browser-based editors and tools 
+(often the case in online courses) 
+and have **not set up their own environment** before.
 
 ## Why?
-When we were teaching ourselves how to code it took us some time, talking to more experienced developers and trying things out to **pick up on all the small things that make our lives easier as developers**.   
+
+When we were learning software engineering, 
+it took us some time, 
+talking to more experienced engineers 
+and trying things out to 
+**pick up on all the small things that make us more effective**.   
 We wanted there to be a single place where new developers could go to find these quickly so they can **get past the setup and down to the business of coding**.
 
 
-_Note: @dwyl we use [a specific technology stack](https://github.com/dwyl/technology-stack).  
+> **Note**: @dwyl we use a specific 
+[technology stack](https://github.com/dwyl/technology-stack)
+that includes 
+[PostgreSQL]()
+[]
+
 **Installing** software [is optional](https://github.com/dwyl/dev-setup/issues/3),
 but it does make you more effective so we highly recommend it.  
 This repo includes some recommendations of things we favour and use @dwyl._
 
 ## Checklist
 
+Ensure you have a decent internet connection 
+when setting up your machine,
+several gigabytes will be downloaded.
+
+### Web Browser
+
+
+
+
+
+### Homebrew
+
+If you are seting up a Mac,
+you will need to install homebrew 
+[brew.sh](https://brew.sh),
+the package manager that will download and manage
+several other open source software packages.
+
+Install with the following command in your terminal:
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+
+### Text Editor
+
+There are a wide range of text editors 
+and integrated devlopment environment (IDEs)
+available.
+
+We tend to use:
+
++ [ ] VSCodium https://vscodium.com the Open Source version of VS Code. All Plugins work as expected
+but no Tracking from Microsoft.
++ [ ] VS Code: https://code.visualstudio.com as a backup or read-only viewer when we are working on multiple projects concurently.
+
+
+### Git + GitHub
+
+If you don't _already_ have a GitHub account,
+sign up for one: 
+
 + **Text Editor**
-  + [ ] Get yourself a [text editor](#text-editor)
+  + [ ] [text editor](#text-editor)
   + [ ] Do some [basic setup](#basic-text-editor-setup) to make your life a little easier
   + [ ] Learn a handful of the [most useful keyboard shortcuts](#our-most-used-text-editor-keyboard-shortcuts)
 + **Git & GitHub**
@@ -39,8 +156,14 @@ This repo includes some recommendations of things we favour and use @dwyl._
 **Next steps?** If you want to [contribute to dwyl projects](https://github.com/dwyl/contributing), get comfortable with [our stack](https://github.com/dwyl/technology-stack) and **open issues whenever you have questions**!
 
 ## Git and GitHub
-We use Git and [Github](https://en.wikipedia.org/wiki/GitHub) exclusively for our version control and to share our work with the world.   
-Understanding the [difference between the two](https://www.codefellows.org/blog/git-and-github-what-s-the-difference) is also helpful :blush:
+
+We use Git and 
+[Github](https://en.wikipedia.org/wiki/GitHub) 
+exclusively for our version control 
+and to share our work with the world.   
+Understanding the 
+[difference between the two](https://www.codefellows.org/blog/git-and-github-what-s-the-difference) 
+is also helpful :blush:
 
 ### Basic Git setup   
 + Sign up for a [Github account](https://github.com/join)
@@ -55,7 +178,8 @@ Understanding the [difference between the two](https://www.codefellows.org/blog/
 <a name="git-in-the-terminal"/>
 + Although [Git has a desktop client](https://desktop.github.com/) we **recommend that you learn to use it on the command line** - this is _much_ faster in the long run and will serve you well as a developer
 
-## Terminal
+### Terminal
+
 + There are many _themes_ which you may have heard of (like [Oh My Zsh](http://ohmyz.sh/)) that aim to add some functionality and shortcuts to your terminal - **we _don't_ recommend you use any terminal themes when you're starting out**. Until you know what you're doing in the terminal, relying on these keeps you from becoming proficient in the basics.
 + Similarly, a good number of us currently use [iTerm](http://www.iterm2.com/) as our terminal emulator but you really don't need to have one straight away - iTerm just provides some nice features like split panes :+1:
 ![iterm-screenshot](https://cloud.githubusercontent.com/assets/4185328/9831158/56d8cb90-5943-11e5-99ec-9fb1a5907f8a.png)
