@@ -2,44 +2,49 @@
 
 # A Guide to Setting Up Your Dev Environment
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/dev-setup/issues)
-
 ![tianyi-ma-WiONHd_zYI4-unsplash](https://user-images.githubusercontent.com/194400/180770906-938c8083-28fb-4c03-872f-3a636376f15f.jpg)
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/dev-setup/issues)
+[![HitCount](https://hits.dwyl.com/dwyl/dev-setup.svg?style=flat-square)](http://hits.dwyl.com/dwyl/dev-setup)
+
 
 </div>
 
 - [A Guide to Setting Up Your Dev Environment](#a-guide-to-setting-up-your-dev-environment)
-- [Why?](#why)
+- [Why? 🤷‍♀️](#why-️)
 - [What?](#what)
 - [Who?](#who)
-  - [Why?](#why-1)
-  - [Checklist](#checklist)
-    - [Web Browser](#web-browser)
-    - [Homebrew](#homebrew)
-    - [Text Editor](#text-editor)
-    - [Git + GitHub](#git--github)
+  - [Why?](#why)
+- [How?](#how)
+  - [Web Browsers](#web-browsers)
+  - [Text Editor](#text-editor)
+  - [Git + GitHub](#git--github)
   - [Git and GitHub](#git-and-github)
     - [Basic Git setup](#basic-git-setup)
     - [Learn how to use Git + GitHub](#learn-how-to-use-git--github)
-    - [Terminal](#terminal)
+- [Mac](#mac)
+  - [Rectangle](#rectangle)
+    - [Keyboard Shortcuts](#keyboard-shortcuts)
+  - [Homebrew](#homebrew)
+  - [`iTerm`](#iterm)
+    - [Themes](#themes)
   - [Text Editor](#text-editor-1)
     - [Basic text editor setup](#basic-text-editor-setup)
   - [How to connect Github to Atom step-by-step](#how-to-connect-github-to-atom-step-by-step)
     - [Our most used text editor keyboard shortcuts](#our-most-used-text-editor-keyboard-shortcuts)
-  - [Spectacle](#spectacle)
     - [Why ?](#why-)
     - [What ?](#what-)
     - [Spectacle Installation](#spectacle-installation)
     - [Spectacle Shortcuts](#spectacle-shortcuts)
 
 
-# Why?
+# Why? 🤷‍♀️
 
 Setting up a software development computer can take a _long_ time. ⏳ <br />
 We need to streamline the process
-so that we can start work as quickly as possible.
+so that we can start work as quickly as possible. 🏁<br />
 This doc outlines all the steps we take to setup 
-our system.
+our typical system. 💻
 
 If you find it helpful,
 please 
@@ -61,9 +66,9 @@ this is about **basic setup and getting going when you're new**
 and already have a _steep_ learning curve!
 
 If you have a tool or setup step
-you think we should be including/using,
+you think we should include/use,
 [please open an issue](https://github.com/dwyl/dev-setup/issues)
-to let us know about it!
+to let us know! 🙏
 
 # Who?
 
@@ -86,41 +91,48 @@ We wanted there to be a single place where new developers could go to find these
 > **Note**: @dwyl we use a specific 
 [technology stack](https://github.com/dwyl/technology-stack)
 that includes 
-[PostgreSQL]()
-[]
+[PostgreSQL]() and 
+[Elixir]()
 
 **Installing** software [is optional](https://github.com/dwyl/dev-setup/issues/3),
 but it does make you more effective so we highly recommend it.  
 This repo includes some recommendations of things we favour and use @dwyl._
 
-## Checklist
+# How? 
 
 Ensure you have a decent internet connection 
 when setting up your machine,
-several gigabytes will be downloaded.
+several **gigabytes** will be downloaded.
 
-### Web Browser
+> **Note**: if you don't have a good internet connection,
+> simply skip downloading the browser(s) and other larger Apps.
+> But we are _assuming_ that if you are reading this,
+> you have _access_ to decent bandwidth to be a Developer/Engineer.
+> Please, share your experience if not!
+> We are very curious to hear from bandwidth-constrained people! 🙏
+> We would like to formulate a "Low Cost / Bandwidth" version 
+> of this doc for use on a Raspberry Pi or other lower cost computer.
+> We could even create a pre-built SD card with everything required. 💭
+
+## Web Browsers
+
+The reason the word "browsers" is _plural_ is simple:
+having _multiple_ browsers lets you use each one for a specific purpose.
+e.g:
+
+1. Safari - the default browser on Mac. 
+   Keep it "stock" (no plugins/themes), 
+   use it for UAT testing web apps 
+   to know what they will look & feel like 
+   to people who own Macs 
+   but don't bother to download another browser.
+   Safari is good for personal things too as it has good privacy and speed.
+2. Google Chrome - The baseline for web development.
 
 
 
 
-
-### Homebrew
-
-If you are seting up a Mac,
-you will need to install homebrew 
-[brew.sh](https://brew.sh),
-the package manager that will download and manage
-several other open source software packages.
-
-Install with the following command in your terminal:
-
-```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-
-### Text Editor
+## Text Editor
 
 There are a wide range of text editors 
 and integrated devlopment environment (IDEs)
@@ -128,22 +140,21 @@ available.
 
 We tend to use:
 
++ [ ] Atom: 
++ [ ] 
 + [ ] VSCodium https://vscodium.com the Open Source version of VS Code. All Plugins work as expected
 but no Tracking from Microsoft.
 + [ ] VS Code: https://code.visualstudio.com as a backup or read-only viewer when we are working on multiple projects concurently.
 
+The reason 
 
-### Git + GitHub
+
+## Git + GitHub
 
 If you don't _already_ have a GitHub account,
 sign up for one: 
+[github.com/join](https://github.com/join)
 
-+ **Text Editor**
-  + [ ] [text editor](#text-editor)
-  + [ ] Do some [basic setup](#basic-text-editor-setup) to make your life a little easier
-  + [ ] Learn a handful of the [most useful keyboard shortcuts](#our-most-used-text-editor-keyboard-shortcuts)
-+ **Git & GitHub**
-  + [ ] Sign up for a [Github account](https://github.com/join)
   + [ ] Enable 2 Factor Authentication
   ([2FA](https://help.github.com/en/github/authenticating-to-github/about-two-factor-authentication))
   for Github to further protect not only your own account but also any organisations
@@ -178,19 +189,95 @@ is also helpful :blush:
 <a name="git-in-the-terminal"/>
 + Although [Git has a desktop client](https://desktop.github.com/) we **recommend that you learn to use it on the command line** - this is _much_ faster in the long run and will serve you well as a developer
 
-### Terminal
 
-+ There are many _themes_ which you may have heard of (like [Oh My Zsh](http://ohmyz.sh/)) that aim to add some functionality and shortcuts to your terminal - **we _don't_ recommend you use any terminal themes when you're starting out**. Until you know what you're doing in the terminal, relying on these keeps you from becoming proficient in the basics.
-+ Similarly, a good number of us currently use [iTerm](http://www.iterm2.com/) as our terminal emulator but you really don't need to have one straight away - iTerm just provides some nice features like split panes :+1:
-![iterm-screenshot](https://cloud.githubusercontent.com/assets/4185328/9831158/56d8cb90-5943-11e5-99ec-9fb1a5907f8a.png)
+# Mac
+
+This section is specific to Mac computers.
+Skip it if you are using Linux or 
+[Windows](https://www.google.com/search?q=stop+hitting+yourself&tbm=isch).
+
+## Rectangle
+
+[Rectangle](https://rectangleapp.com/) 
+is window manager/tiler for Mac,
+it gives you keyboard shortcuts for moving/organising your Apps/Windows: 
+[rectangleapp.com](https://rectangleapp.com/)
+
+<img width="1115" alt="image" src="https://user-images.githubusercontent.com/194400/180993778-01d42389-9d9c-497c-a469-968e220ec3c7.png">
+
+> **Note**: Rectangle will request/require 
+> "accessibility" permissions to control your windows.
+> This is normal.
+
+### Keyboard Shortcuts
+
+
+<img width="884" alt="image" src="https://user-images.githubusercontent.com/194400/180995347-d7838081-9a84-49c6-b45c-0f251e44c719.png">
+
+
+
+## Homebrew
+
+If you are seting up a Mac,
+you will need to install homebrew 
+[brew.sh](https://brew.sh),
+the package manager that will download and manage
+several other open source software packages.
+
+Install with the following command in your terminal:
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+## `iTerm`
+
+The default terminal emulator on Mac is _OK_...
+We find that 
+[**`iTerm`**](http://www.iterm2.com/) 
+is _considerably_ better UX.
+e.g: **`iTerm`** allows screen splitting:
+
+![iterm-screen-splitting](https://cloud.githubusercontent.com/assets/4185328/9831158/56d8cb90-5943-11e5-99ec-9fb1a5907f8a.png)
+
+As with Web Browsers, 
+it doesn't _hurt_ to have more than one Terminal 
+on your Mac. 
+
+Download: https://iterm2.com
+
+### Themes
+
+There are _many_ themes 
+which you may have heard of 
+(like [Oh My Zsh](http://ohmyz.sh/)) 
+that aim to add some functionality 
+and shortcuts to your terminal. 
+**We _don't_ recommend** 
+you use any terminal themes 
+when you're starting out
+because they are a _distraction_
+from the content/code you are crafting.
+
+However, once you know what you're doing in the terminal, 
+you can consider _enhancing_ your terminal with themes.
+There are _many_ to chose from:
+[iterm2colorschemes.com](https://iterm2colorschemes.com/)
+
 
 ## Text Editor
+
 It's entirely up to you which text editor you use, but you will inevitably need one.    
 At the time of writing, at _dwyl_ we use [Atom editor](https://atom.io/) (open source, NodeJS based editor) though we work with a lot of people who use [Sublime Text](http://www.sublimetext.com/) (and have used this ourselves in the past).
 
 ### Basic text editor setup
-+ ** Set up [_soft tabs_](https://opensourcehacker.com/2012/05/13/never-use-hard-tabs/)** (indentation)
-  + You can usually set this up in the _Preferences_ or _Settings_ of your favourite text editor so you never have to think about it again (example below on [Atom editor](https://atom.io/))    
+
+**Set up** [**_soft tabs_**](https://opensourcehacker.com/2012/05/13/never-use-hard-tabs/) (indentation) <br />
+You can usually set this up in the _Preferences_ or _Settings_ 
+of your favourite text editor 
+so you never have to think about it again 
+(example below for [Atom](https://atom.io/)): 
+
 <img width="507" alt="atom-soft-tab-preferences-menu" src="https://cloud.githubusercontent.com/assets/4185328/9154618/a6598690-3e91-11e5-939b-2c03cf3c7ffc.png">     
 
 
@@ -244,11 +331,6 @@ Each person's most used shortcuts will vary of course, but here are some of the 
   + [Moving a line](https://atom.io/docs/v1.0.11/using-atom-editing-and-deleting-text#basic-manipulation) or block of code up and down the page
   + Changing the [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) when required
   + Toggle between the different views (e.g. hide/show the file tree view to gain more screen real estate)
-
-## Spectacle
-
-
-![Spectacle](https://i.postimg.cc/zBZqm4cQ/Screen-Shot-2015-05-09-at-3-11-50-AM.png)
 
 ### Why ?
 
