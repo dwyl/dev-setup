@@ -14,28 +14,26 @@
 - [Why? 🤷‍♀️](#why-️)
 - [What?](#what)
 - [Who?](#who)
-  - [Why?](#why)
 - [How?](#how)
   - [Web Browsers](#web-browsers)
-  - [Text Editor](#text-editor)
   - [Git + GitHub](#git--github)
-  - [Git and GitHub](#git-and-github)
+    - [2 Factor Authentication (2FA)](#2-factor-authentication-2fa)
     - [Basic Git setup](#basic-git-setup)
     - [Learn how to use Git + GitHub](#learn-how-to-use-git--github)
-- [Mac](#mac)
+- [Mac 🍏](#mac-)
+  - [PostgresApp](#postgresapp)
+  - [PGAdmin](#pgadmin)
   - [Rectangle](#rectangle)
     - [Keyboard Shortcuts](#keyboard-shortcuts)
   - [Homebrew](#homebrew)
   - [`iTerm`](#iterm)
     - [Themes](#themes)
-  - [Text Editor](#text-editor-1)
+- [Linux 🐧](#linux-)
+- [_Everyone_](#everyone)
+  - [Text Editor](#text-editor)
     - [Basic text editor setup](#basic-text-editor-setup)
   - [How to connect Github to Atom step-by-step](#how-to-connect-github-to-atom-step-by-step)
     - [Our most used text editor keyboard shortcuts](#our-most-used-text-editor-keyboard-shortcuts)
-    - [Why ?](#why-)
-    - [What ?](#what-)
-    - [Spectacle Installation](#spectacle-installation)
-    - [Spectacle Shortcuts](#spectacle-shortcuts)
 
 
 # Why? 🤷‍♀️
@@ -72,20 +70,12 @@ to let us know! 🙏
 
 # Who?
 
-1. People who are new to coding.    
+1. People who are **`new`** to software engineering.    
 Particularly people who have learnt online 
 using inbuilt browser-based editors and tools 
 (often the case in online courses) 
 and have **not set up their own environment** before.
 
-## Why?
-
-When we were learning software engineering, 
-it took us some time, 
-talking to more experienced engineers 
-and trying things out to 
-**pick up on all the small things that make us more effective**.   
-We wanted there to be a single place where new developers could go to find these quickly so they can **get past the setup and down to the business of coding**.
 
 
 > **Note**: @dwyl we use a specific 
@@ -117,7 +107,9 @@ several **gigabytes** will be downloaded.
 ## Web Browsers
 
 The reason the word "browsers" is _plural_ is simple:
-having _multiple_ browsers lets you use each one for a specific purpose.
+having _multiple_ web browsers 
+allows you to segment your use of each one
+for a specific purpose.
 e.g:
 
 1. Safari - the default browser on Mac. 
@@ -125,48 +117,58 @@ e.g:
    use it for UAT testing web apps 
    to know what they will look & feel like 
    to people who own Macs 
-   but don't bother to download another browser.
+   but don't bother to download a different browser.
    Safari is good for personal things too as it has good privacy and speed.
-2. Google Chrome - The baseline for web development.
+2. Google Chrome: 
+   [google.com/chrome](https://www.google.com/chrome/)
+   The baseline for web development. Great Dev Tools, profiling etc.
+3. Firefox: 
+   [mozilla.org/firefox](https://www.mozilla.org/en-US/firefox/new/)
+   We use Firefox for testing our Web apps because
+   it has the best support for Web Standards.
+   It's fast, free and surfaces potential bugs 
+   in our code better than other browsers.
 
+In addition to these 
+there are _many_ other browsers you can install/use,
+for example:
 
+4. Brave: 
+   [brave.com/download](https://brave.com/download/)
+   Based on Chrome but with built-in ad-blocker.
+   Use brave to watch YouTube lectures/tutorials without Ads.
+5. Google Chrome Canary: 
+   [google.com/chrome/canary/](https://www.google.com/chrome/canary/)
+   Chrome but with all latest features.
+6. Firefox Developer Edition: 
+   [mozilla.org/firefox/developer/](https://www.mozilla.org/en-US/firefox/developer/)
+   Useful for debugging and testing web apps.
+   We have it installed as a backup browser
+   for when we need to test multiple clients concurrently.
+7. Microsoft Edge: 
+   [microsoft.com/edge](https://www.microsoft.com/en-us/edge)
+   Based on Google Chrome but with a few enhancements.
 
+As noted in
+[#9](https://github.com/dwyl/dev-setup/issues/9#issuecomment-1193409980)
+we have several web browsers installed and use them for specific purposes:
 
-## Text Editor
+<img width="475" alt="image" src="https://user-images.githubusercontent.com/194400/180669042-91cd806d-2a3b-488a-b9cd-1ca0e8d8f20d.png">
 
-There are a wide range of text editors 
-and integrated devlopment environment (IDEs)
-available.
+Given that Microsoft now owns GitHub
+and can read _everything_ we do on the platform
+(_both `public` and `private`..._)
+we use **`Edge`** for all our GitHub
+interactions (e.g. reading notifications, responding to issues/questions, etc.)
+That we know **`Edge`** is our "GitHub browser".
 
-We tend to use:
-
-+ [ ] Atom: 
-+ [ ] 
-+ [ ] VSCodium https://vscodium.com the Open Source version of VS Code. All Plugins work as expected
-but no Tracking from Microsoft.
-+ [ ] VS Code: https://code.visualstudio.com as a backup or read-only viewer when we are working on multiple projects concurently.
-
-The reason 
+You are free to come up with your own system,
+but having multiple browsers and segmenting your use
+can mean you have fewer tabs in your "work" browser
+and can easily separate any personal stuff.
 
 
 ## Git + GitHub
-
-If you don't _already_ have a GitHub account,
-sign up for one: 
-[github.com/join](https://github.com/join)
-
-  + [ ] Enable 2 Factor Authentication
-  ([2FA](https://help.github.com/en/github/authenticating-to-github/about-two-factor-authentication))
-  for Github to further protect not only your own account but also any organisations
-   that you're a part of from malicious intent
-  ![setup-2factor-auth](https://user-images.githubusercontent.com/4185328/79356313-b16e9f80-7f36-11ea-8645-d0ee1ea36853.png)
-  + [ ] [Set it up on your computer](#basic-git-setup)
-  + [ ] Learn to use Git particularly [on the command line](git-in-the-terminal)
-+ [ ] Make sure you're comfortable with your [terminal setup](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
-
-**Next steps?** If you want to [contribute to dwyl projects](https://github.com/dwyl/contributing), get comfortable with [our stack](https://github.com/dwyl/technology-stack) and **open issues whenever you have questions**!
-
-## Git and GitHub
 
 We use Git and 
 [Github](https://en.wikipedia.org/wiki/GitHub) 
@@ -174,27 +176,83 @@ exclusively for our version control
 and to share our work with the world.   
 Understanding the 
 [difference between the two](https://www.codefellows.org/blog/git-and-github-what-s-the-difference) 
-is also helpful :blush:
+is also helpful.
+
+If you don't _already_ have a GitHub account,
+sign up for one: 
+[github.com/join](https://github.com/join)
+
+### 2 Factor Authentication (2FA)
+
+[2FA](https://help.github.com/en/github/authenticating-to-github/about-two-factor-authentication)
+protects your Github account
+and also any organisations you are member of
+from malicious intent.
+
+![setup-2factor-auth](https://user-images.githubusercontent.com/4185328/79356313-b16e9f80-7f36-11ea-8645-d0ee1ea36853.png)
+
++ [ ] Learn to use Git particularly [on the command line](git-in-the-terminal)
++ [ ] Make sure you're comfortable with your [terminal setup](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
+
+**Next steps?** If you want to 
+[contribute to dwyl projects](https://github.com/dwyl/contributing), 
+you can easily do so _without_
+knowing _any_ of our  
+[tech stack](https://github.com/dwyl/technology-stack).
+Simply use the 
+[App](https://github.com/dwyl/app)
+and **open issues whenever you have questions**!
+
 
 ### Basic Git setup   
-+ Sign up for a [Github account](https://github.com/join)
-+ **[Set up Git](https://help.github.com/articles/set-up-git/) on your computer**
-  + We recommend you [**authenticate with SSH**](https://help.github.com/articles/set-up-git/#connecting-over-ssh) as this is more secure and means you _won't have to type in your password every time you push to GitHub_
-  + _Note:_ This also means that when you _clone_ a repo, you'll need to use the **SSH clone URL** (thanks [@tsop14](https://github.com/tsop14) for the screenshot!)
 
-  ![change-to-ssh](https://user-images.githubusercontent.com/21698271/45860770-00daf280-bd37-11e8-92f8-34bb1ddf8152.png)
+Follow the official 
+[**set up Git guide**](https://help.github.com/articles/set-up-git/)
+to get it working on your computer.
+
+Setup 
+[**ssh authentication**](https://help.github.com/articles/set-up-git/#connecting-over-ssh) 
+as it is more secure 
+and means you _won't have to type in your password 
+every time you push to GitHub.
+
+> **Note**: This also means that when you _clone_ a repo, 
+> you'll need to use the **SSH clone URL** 
+> (thanks [@tsop14](https://github.com/tsop14) for the screenshot!)
+
+![change-to-ssh](https://user-images.githubusercontent.com/21698271/45860770-00daf280-bd37-11e8-92f8-34bb1ddf8152.png)
 
 ### Learn how to use Git + GitHub
-+ There are many resources online, [here are a few we like](https://github.com/dwyl/start-here#git--github)
-<a name="git-in-the-terminal"/>
-+ Although [Git has a desktop client](https://desktop.github.com/) we **recommend that you learn to use it on the command line** - this is _much_ faster in the long run and will serve you well as a developer
+
+There are many resources online:
+[start-here#git](https://github.com/dwyl/start-here#git--github)
+
+Although [Git has a desktop client](https://desktop.github.com/), 
+we **recommend that you learn to use it on the command line**. 
+This is _much_ faster in the long run and will serve you well
+when you need to understand how things work.
 
 
-# Mac
+# Mac 🍏
 
-This section is specific to Mac computers.
+This section is _specific_ to Mac computers.
 Skip it if you are using Linux or 
 [Windows](https://www.google.com/search?q=stop+hitting+yourself&tbm=isch).
+
+## PostgresApp 
+
+We find PostgresApp to be the easiest way 
+to manage PostgreSQL on Mac.
+It gives us a basic graphical user interface (GUI)
+and menu bar icon that informs us of the status of the DB.
+
+Download: https://postgresapp.com/
+
+## PGAdmin
+
+Postgres 
+https://www.pgadmin.org/
+
 
 ## Rectangle
 
@@ -211,9 +269,12 @@ it gives you keyboard shortcuts for moving/organising your Apps/Windows:
 
 ### Keyboard Shortcuts
 
+Using Rectangle is fastest via the keyboard shortcuts:
 
 <img width="884" alt="image" src="https://user-images.githubusercontent.com/194400/180995347-d7838081-9a84-49c6-b45c-0f251e44c719.png">
 
+You can add your own shortcuts if you prefer.
+We haven't found the need to yet.
 
 
 ## Homebrew
@@ -264,11 +325,52 @@ you can consider _enhancing_ your terminal with themes.
 There are _many_ to chose from:
 [iterm2colorschemes.com](https://iterm2colorschemes.com/)
 
+<br />
+
+# Linux 🐧
+
+At present several members of our team/community 
+use a Linux distro as their primary operating system. 
+
+If this is _you_,
+please help: 
+[dev-setup/issues/49](https://github.com/dwyl/dev-setup/issues/49)
+
+
+
+<br />
+
+# _Everyone_
+
+The following applies to all people 
+regardless of their operating system
+(Linux, Mac & Windows)
 
 ## Text Editor
 
-It's entirely up to you which text editor you use, but you will inevitably need one.    
-At the time of writing, at _dwyl_ we use [Atom editor](https://atom.io/) (open source, NodeJS based editor) though we work with a lot of people who use [Sublime Text](http://www.sublimetext.com/) (and have used this ourselves in the past).
+It's your choice which text editor you use, 
+but you will inevitably need (at least) one editor.
+At the time of writing, 
+`@dwyl` we use 
+[Atom](https://atom.io/) 
+(Open Source, Electron/NodeJS based editor).
+
+There are a wide range of text editors 
+and integrated devlopment environment (IDEs)
+available.
+
+We tend to use:
+
++ Atom: https://atom.io Open Source and has many plugins for language and framework support.
+  Download and install it even if you only use it as a "backup" editor.
+  VSCodium https://vscodium.com the Open Source version of VS Code. All Plugins work as expected
+but no Tracking from Microsoft.
++ VS Code: https://code.visualstudio.com as a backup or read-only viewer when we are working on multiple projects concurently.
++ Sublime Text: [sublimetext.com](http://www.sublimetext.com) - fast and free-ish 
+  (you will be reminded to purchase a license ... but the license is perpetual not annual!)
++ [WebStorm](https://www.jetbrains.com/webstorm/buy/#personal) - we hear good things about WebStorm.
+  
+
 
 ### Basic text editor setup
 
@@ -319,8 +421,7 @@ You will have to enter your credentials again to validate those changes.
 If you go on your created repository and press F5 you should see those changes.   
 
 
-
-+ **Install at least a basic [linter](http://stackoverflow.com/questions/8503559/what-is-linting)** to your editor
+Install at least a [linter](http://stackoverflow.com/questions/8503559/what-is-linting) in your editor.
 
 ### Our most used text editor keyboard shortcuts  
 Each person's most used shortcuts will vary of course, but here are some of the things we suggest **learn the keyboard shortcuts for:**
@@ -331,40 +432,3 @@ Each person's most used shortcuts will vary of course, but here are some of the 
   + [Moving a line](https://atom.io/docs/v1.0.11/using-atom-editing-and-deleting-text#basic-manipulation) or block of code up and down the page
   + Changing the [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) when required
   + Toggle between the different views (e.g. hide/show the file tree view to gain more screen real estate)
-
-### Why ?
-
-
-So a lot of you may have lots of open windows at once.
-   You got code running and then you got the documentation for the code and you got Google stuff opened.
-  And then "Stack overflow" to search for errors or doubts.
-  Everything becomes a mess and a nightmare with so many pages open.
-  The simplest way to organize everything is to use the spectacle.
-
-### What ?
-
-   Spectacle is simply an app that helps you managing your windows.
-   Lets you modify whatever you want to do to your windows.
-   Keyboard shortcuts are the fastest way to communicate with your computer.
-   If you want to be super fast and efficient "You need to learn how to use Spectacle".
-   Once you learn some of the shortcuts you will just need to use your "Muscle Memory" to use them.
-
-_Note:_ Spectacle is only for Mac in alternative for windows you have AquaSnap that works the same way.
-
-### Spectacle Installation
-
-First of all access the website :https://www.spectacleapp.com/
-
-![Screen Shot 2020-01-08 at 09 45 50](https://user-images.githubusercontent.com/27420533/71968207-596c2280-31fc-11ea-849c-abff957b4980.png)
-
-
-After Clicking on 'Download Spectacle' you just need to add to your applications folder.
-
-### Spectacle Shortcuts
-
-
-![Spectacle](https://i.postimg.cc/sXpXX5Qw/Screen-Shot-2020-01-07-at-09-44-10.png)
-
-You can "Always" edit your own shortcuts going to preferences and click on the shortcut you want to change.
-
-![Spectacle](https://i.postimg.cc/c1tHryYr/Screen-Shot-2020-01-07-at-09-54-22.png)
