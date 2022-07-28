@@ -191,8 +191,6 @@ from malicious intent.
 
 ![setup-2factor-auth](https://user-images.githubusercontent.com/4185328/79356313-b16e9f80-7f36-11ea-8645-d0ee1ea36853.png)
 
-+ [ ] Learn to use Git particularly [on the command line](git-in-the-terminal)
-+ [ ] Make sure you're comfortable with your [terminal setup](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
 
 **Next steps?** If you want to 
 [contribute to dwyl projects](https://github.com/dwyl/contributing), 
@@ -293,7 +291,7 @@ Install with the following command in your terminal:
 
 ## `iTerm`
 
-The default terminal emulator on Mac is _OK_...
+The default terminal emulator on Mac is _OK_ for basic tasks... <br />
 We find that 
 [**`iTerm`**](http://www.iterm2.com/) 
 is _considerably_ better UX.
@@ -368,7 +366,7 @@ but no Tracking from Microsoft.
 + VS Code: https://code.visualstudio.com as a backup or read-only viewer when we are working on multiple projects concurently.
 + Sublime Text: [sublimetext.com](http://www.sublimetext.com) - fast and free-ish 
   (you will be reminded to purchase a license ... but the license is perpetual not annual!)
-+ [WebStorm](https://www.jetbrains.com/webstorm/buy/#personal) - we hear good things about WebStorm.
++ WebStorm: [jetbrains.com/webstorm]](https://www.jetbrains.com/webstorm/buy/#personal) - we hear good things about WebStorm.
   
 
 
