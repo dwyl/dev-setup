@@ -86,11 +86,10 @@ that includes
 [PostgreSQL](https://github.com/dwyl/learn-postgresql#installation) 
 and 
 [Elixir](https://github.com/dwyl/learn-elixir#how)
-
-**Installing** most of this software 
+> **Installing** most of this software 
 [is optional](https://github.com/dwyl/dev-setup/issues/3),
 but it does make you more effective so we highly recommend it.  
-This repo includes some recommendations of things we favour and use @dwyl._
+This repo includes some recommendations of things we favour and use @dwyl.
 
 # How? 
 
@@ -98,7 +97,7 @@ Ensure you have a decent internet connection
 when setting up your machine,
 several **gigabytes** will be downloaded.
 
-> **Note**: if you don't have a good internet connection,
+> **Note**: if you lack a good internet connection,
 > simply skip downloading the browser(s) and other larger Apps.
 > But we are _assuming_ that if you are reading this,
 > you have _access_ to decent bandwidth to be a Developer/Engineer.
