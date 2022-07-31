@@ -357,7 +357,7 @@ but no Tracking from Microsoft.
 + VS Code: https://code.visualstudio.com as a backup or read-only viewer when we are working on multiple projects concurently.
 + Sublime Text: [sublimetext.com](http://www.sublimetext.com) - fast and free-ish 
   (you will be reminded to purchase a license ... but the license is perpetual not annual!)
-+ WebStorm: [jetbrains.com/webstorm]](https://www.jetbrains.com/webstorm/buy/#personal) - we hear good things about WebStorm.
+  
   
 
 
