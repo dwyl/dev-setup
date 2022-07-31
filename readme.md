@@ -28,17 +28,18 @@
   - [Homebrew](#homebrew)
   - [`iTerm`](#iterm)
     - [Themes](#themes)
-- [Linux 🐧](#linux-)
 - [_Everyone_](#everyone)
   - [Text Editor](#text-editor)
     - [Basic text editor setup](#basic-text-editor-setup)
   - [How to connect Github to Atom step-by-step](#how-to-connect-github-to-atom-step-by-step)
     - [Our most used text editor keyboard shortcuts](#our-most-used-text-editor-keyboard-shortcuts)
+- [Linux 🐧](#linux-)
 
 
 # Why? 🤷‍♀️
 
-Setting up a software development computer can take a _long_ time. ⏳ <br />
+Setting up a software engineering computer 
+can take a _long_ time. ⏳ <br />
 We need to streamline the process
 so that we can start work as quickly as possible. 🏁<br />
 This doc outlines all the steps we take to setup 
@@ -56,17 +57,15 @@ Thanks.
 
 This repo contains the tools we use.
 
-Please open issues and pull requests to include anything you think is relevant.
+If you have a tool or setup step
+you think we should include/use,
+[please open an issue](https://github.com/dwyl/dev-setup/issues)
+to let us know! 🙏
 
 > _Note:_ The intention is **not** to include every fancy script, 
 tip and trick under the sun, 
 this is about **basic setup and getting going when you're new** 
 and already have a _steep_ learning curve!
-
-If you have a tool or setup step
-you think we should include/use,
-[please open an issue](https://github.com/dwyl/dev-setup/issues)
-to let us know! 🙏
 
 # Who?
 
@@ -76,15 +75,20 @@ using inbuilt browser-based editors and tools
 (often the case in online courses) 
 and have **not set up their own environment** before.
 
+2. People @dwyl who have just got a new computer
+and need set it up as quickly as possible
+so they can get work done. 
 
 
 > **Note**: @dwyl we use a specific 
 [technology stack](https://github.com/dwyl/technology-stack)
 that includes 
-[PostgreSQL]() and 
-[Elixir]()
+[PostgreSQL](https://github.com/dwyl/learn-postgresql#installation) 
+and 
+[Elixir](https://github.com/dwyl/learn-elixir#how)
 
-**Installing** software [is optional](https://github.com/dwyl/dev-setup/issues/3),
+**Installing** most of this software 
+[is optional](https://github.com/dwyl/dev-setup/issues/3),
 but it does make you more effective so we highly recommend it.  
 This repo includes some recommendations of things we favour and use @dwyl._
 
@@ -112,17 +116,17 @@ allows you to segment your use of each one
 for a specific purpose.
 e.g:
 
-1. Safari - the default browser on Mac. 
+1. **`Safari`** - the default browser on Mac. 
    Keep it "stock" (no plugins/themes), 
    use it for UAT testing web apps 
    to know what they will look & feel like 
    to people who own Macs 
    but don't bother to download a different browser.
    Safari is good for personal things too as it has good privacy and speed.
-2. Google Chrome: 
+2. **`Google Chrome`**: 
    [google.com/chrome](https://www.google.com/chrome/)
    The baseline for web development. Great Dev Tools, profiling etc.
-3. Firefox: 
+3. **`Firefox`**: 
    [mozilla.org/firefox](https://www.mozilla.org/en-US/firefox/new/)
    We use Firefox for testing our Web apps because
    it has the best support for Web Standards.
@@ -133,21 +137,21 @@ In addition to these
 there are _many_ other browsers you can install/use,
 for example:
 
-4. Brave: 
+4. **`Brave`**: 
    [brave.com/download](https://brave.com/download/)
    Based on Chrome but with built-in ad-blocker.
    Use brave to watch YouTube lectures/tutorials without Ads.
-5. Google Chrome Canary: 
+5. **`Google Chrome Canary`**: 
    [google.com/chrome/canary/](https://www.google.com/chrome/canary/)
    Chrome but with all latest features.
-6. Firefox Developer Edition: 
+6. **`Firefox Developer Edition`**: 
    [mozilla.org/firefox/developer/](https://www.mozilla.org/en-US/firefox/developer/)
    Useful for debugging and testing web apps.
    We have it installed as a backup browser
    for when we need to test multiple clients concurrently.
-7. Microsoft Edge: 
+7. **`Microsoft Edge`**: 
    [microsoft.com/edge](https://www.microsoft.com/en-us/edge)
-   Based on Google Chrome but with a few enhancements.
+   Based on Google Chrome but with a few Microsoft enhancements.
 
 As noted in
 [#9](https://github.com/dwyl/dev-setup/issues/9#issuecomment-1193409980)
@@ -323,18 +327,6 @@ you can consider _enhancing_ your terminal with themes.
 There are _many_ to chose from:
 [iterm2colorschemes.com](https://iterm2colorschemes.com/)
 
-<br />
-
-# Linux 🐧
-
-At present several members of our team/community 
-use a Linux distro as their primary operating system. 
-
-If this is _you_,
-please help: 
-[dev-setup/issues/49](https://github.com/dwyl/dev-setup/issues/49)
-
-
 
 <br />
 
@@ -430,3 +422,20 @@ Each person's most used shortcuts will vary of course, but here are some of the 
   + [Moving a line](https://atom.io/docs/v1.0.11/using-atom-editing-and-deleting-text#basic-manipulation) or block of code up and down the page
   + Changing the [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) when required
   + Toggle between the different views (e.g. hide/show the file tree view to gain more screen real estate)
+  
+
+<br />
+
+# Linux 🐧
+
+At present several members of our team/community 
+use a Linux distro as their primary operating system. 
+
+If this is _you_,
+please help: 
+[dev-setup/issues/49](https://github.com/dwyl/dev-setup/issues/49) 🙏
+
+Ideallly we would make the instructions 
+RaspberryPi-friendly.
+
+
