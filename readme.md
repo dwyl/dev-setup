@@ -76,7 +76,7 @@ using inbuilt browser-based editors and tools
 and have **not set up their own environment** before.
 
 2. People @dwyl who have just got a new computer
-and need set it up as quickly as possible
+and need to set it up as quickly as possible
 so they can get work done. 
 
 
@@ -139,7 +139,7 @@ for example:
 4. **`Brave`**: 
    [brave.com/download](https://brave.com/download/)
    Based on Chrome but with built-in ad-blocker.
-   Use brave to watch YouTube lectures/tutorials without Ads.
+   Use Brave to watch YouTube lectures/tutorials without Ads.
 5. **`Google Chrome Canary`**: 
    [google.com/chrome/canary/](https://www.google.com/chrome/canary/)
    Chrome but with all latest features.
@@ -163,7 +163,7 @@ and can read _everything_ we do on the platform
 (_both `public` and `private`..._)
 we use **`Edge`** for all our GitHub
 interactions (e.g. reading notifications, responding to issues/questions, etc.)
-That we know **`Edge`** is our "GitHub browser".
+**`Edge`** is our "GitHub browser".
 
 You are free to come up with your own system,
 but having multiple browsers and segmenting your use
@@ -189,7 +189,7 @@ sign up for one:
 
 [2FA](https://help.github.com/en/github/authenticating-to-github/about-two-factor-authentication)
 protects your Github account
-and also any organisations you are member of
+and also any organisations you are a member of
 from malicious intent.
 
 ![setup-2factor-auth](https://user-images.githubusercontent.com/4185328/79356313-b16e9f80-7f36-11ea-8645-d0ee1ea36853.png)
@@ -280,7 +280,7 @@ We haven't found the need to yet.
 
 ## Homebrew
 
-If you are seting up a Mac,
+If you are setting up a Mac,
 you will need to install homebrew 
 [brew.sh](https://brew.sh),
 the package manager that will download and manage
@@ -323,7 +323,7 @@ from the content/code you are crafting.
 
 However, once you know what you're doing in the terminal, 
 you can consider _enhancing_ your terminal with themes.
-There are _many_ to chose from:
+There are _many_ to choose from:
 [iterm2colorschemes.com](https://iterm2colorschemes.com/)
 
 
@@ -345,7 +345,7 @@ At the time of writing,
 (Open Source, Electron/NodeJS based editor).
 
 There are a wide range of text editors 
-and integrated devlopment environment (IDEs)
+and integrated development environment (IDEs)
 available.
 
 We tend to use:
@@ -354,7 +354,7 @@ We tend to use:
   Download and install it even if you only use it as a "backup" editor.
   VSCodium https://vscodium.com the Open Source version of VS Code. All Plugins work as expected
 but no Tracking from Microsoft.
-+ VS Code: https://code.visualstudio.com as a backup or read-only viewer when we are working on multiple projects concurently.
++ VS Code: https://code.visualstudio.com as a backup or read-only viewer when we are working on multiple projects concurrently.
 + Sublime Text: [sublimetext.com](http://www.sublimetext.com) - fast and free-ish 
   (you will be reminded to purchase a license ... but the license is perpetual not annual!)
   
@@ -434,7 +434,7 @@ If this is _you_,
 please help: 
 [dev-setup/issues/49](https://github.com/dwyl/dev-setup/issues/49) 🙏
 
-Ideallly we would make the instructions 
+Ideally we would make the instructions 
 RaspberryPi-friendly.
 
 
