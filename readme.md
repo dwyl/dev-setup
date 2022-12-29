@@ -5,7 +5,7 @@
 ![tianyi-ma-WiONHd_zYI4-unsplash](https://user-images.githubusercontent.com/194400/180770906-938c8083-28fb-4c03-872f-3a636376f15f.jpg)
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/dev-setup/issues)
-[![HitCount](https://hits.dwyl.com/dwyl/dev-setup.svg?style=flat-square)](http://hits.dwyl.com/dwyl/dev-setup)
+[![HitCount](https://hits.dwyl.com/dwyl/dev-setup.svg?style=flat-square)](https://hits.dwyl.com/dwyl/dev-setup)
 
 
 </div>
@@ -296,7 +296,7 @@ Install with the following command in your terminal:
 
 The default terminal emulator on Mac is _OK_ for basic tasks... <br />
 We find that 
-[**`iTerm`**](http://www.iterm2.com/) 
+[**`iTerm`**](https://www.iterm2.com/) 
 is _considerably_ better UX.
 e.g: **`iTerm`** allows screen splitting:
 
@@ -312,7 +312,7 @@ Download: https://iterm2.com
 
 There are _many_ themes 
 which you may have heard of 
-(like [Oh My Zsh](http://ohmyz.sh/)) 
+(like [Oh My Zsh](https://ohmyz.sh/)) 
 that aim to add some functionality 
 and shortcuts to your terminal. 
 **We _don't_ recommend** 
@@ -355,7 +355,7 @@ We tend to use:
   VSCodium https://vscodium.com the Open Source version of VS Code. All Plugins work as expected
 but no Tracking from Microsoft.
 + VS Code: https://code.visualstudio.com as a backup or read-only viewer when we are working on multiple projects concurrently.
-+ Sublime Text: [sublimetext.com](http://www.sublimetext.com) - fast and free-ish 
++ Sublime Text: [sublimetext.com](https://www.sublimetext.com) - fast and free-ish 
   (you will be reminded to purchase a license ... but the license is perpetual not annual!)
   
   
@@ -372,7 +372,7 @@ so you never have to think about it again
 <img width="507" alt="atom-soft-tab-preferences-menu" src="https://cloud.githubusercontent.com/assets/4185328/9154618/a6598690-3e91-11e5-939b-2c03cf3c7ffc.png">     
 
 
-+ **Set up a guide (or line) to show on your page at the 80 character mark** so you know [when you go past 80 characters (or columns) on a single line](http://programmers.stackexchange.com/questions/604/is-the-80-character-limit-still-relevant-in-times-of-widescreen-monitors)
++ **Set up a guide (or line) to show on your page at the 80 character mark** so you know [when you go past 80 characters (or columns) on a single line](https://programmers.stackexchange.com/questions/604/is-the-80-character-limit-still-relevant-in-times-of-widescreen-monitors)
   + Useful for _readability_, particularly in code snippets where you would otherwise end up with a scroll bar
   + You should also be able to set this up in your favourite text editor's _Preferences_ (example below again on Atom editor - note, I also like to set up my editor to soft wrap at this line length so I can read other people's code more easily)    
   <img width="511" alt="80-character-line-guide-setup" src="https://cloud.githubusercontent.com/assets/4185328/9826015/45796748-58cf-11e5-8a5d-db7350a8eb82.png">
@@ -410,7 +410,7 @@ You will have to enter your credentials again to validate those changes.
 If you go on your created repository and press F5 you should see those changes.   
 
 
-Install at least a [linter](http://stackoverflow.com/questions/8503559/what-is-linting) in your editor.
+Install at least a [linter](https://stackoverflow.com/questions/8503559/what-is-linting) in your editor.
 
 ### Our most used text editor keyboard shortcuts  
 Each person's most used shortcuts will vary of course, but here are some of the things we suggest **learn the keyboard shortcuts for:**
