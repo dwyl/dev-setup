@@ -34,6 +34,13 @@
   - [How to connect Github to Atom step-by-step](#how-to-connect-github-to-atom-step-by-step)
     - [Our most used text editor keyboard shortcuts](#our-most-used-text-editor-keyboard-shortcuts)
 - [Linux 🐧](#linux-)
+  - [Text Editor](#text-editor-linux)
+    - [Vim](#vim)
+    - [Neovim](#neovim)
+    - [Visual Studio Code (aka VS Code)](#vs-code)
+  - [System Fetch](#system-fetch)
+    - [screenfetch](#screenfetch)
+    - [neofetch](#neofetch)
 
 
 # Why? 🤷‍♀️
@@ -426,15 +433,132 @@ Each person's most used shortcuts will vary of course, but here are some of the 
 <br />
 
 # Linux 🐧
+This section is _specific_ to Linux computers.
+Skip it if you are using Mac or 
+[Windows](https://www.google.com/search?q=stop+hitting+yourself&tbm=isch).
 
-At present several members of our team/community 
-use a Linux distro as their primary operating system. 
+## Text Editor
+It's your choice which text editor you use, but you will inevitably need (at least) one editor. At the time of writing, `@lnxwizard` we use Visual Studio Code (aka VS Code).
 
-If this is _you_,
-please help: 
-[dev-setup/issues/49](https://github.com/dwyl/dev-setup/issues/49) 🙏
+### Vim
+Vim is a free and open-source, screen-based text editor program. It is an improved clone of Bill Joy's vi. Vim's author, Bram Moolenaar, derived Vim from a port of the Stevie editor for Amiga and released a version to the public in 1991. Vim is designed for use both from a command-line interface and as a standalone application in a graphical user interface. Vim comes pre-installed on some Linux distributions.
 
-Ideally we would make the instructions 
-RaspberryPi-friendly.
+Arch Linux, Manjaro:
+```shell
+sudo pacman -S vim
+```
 
+Debian, Ubuntu, Linux Mint:
+```shell
+sudo apt install vim
+```
 
+CentOS, Fedora, RHEL:
+```shell
+sudo dnf install vim
+```
+
+OpenSuse:
+```shell
+sudo zypper install vim
+```
+
+### Neovim
+Neovim is a project that seeks to aggressively refactor Vim in order to:
+  - Simplify maintenance and encourage contributions
+  - Split the work between multiple developers
+  - Enable advanced UIs without modifications to the core
+  - Maximize extensibility
+
+Arch Linux, Manjaro:
+```shell
+sudo pacman -S neovim
+```
+
+Debian, Ubuntu, Linux Mint:
+```shell
+sudo apt-get install neovim
+```
+
+Fedora:
+```shell
+sudo dnf install -y neovim python3-neovim
+```
+
+CentOS, RHEL:
+```shell
+yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+yum install -y neovim python3-neovim
+```
+
+OpenSuse:
+```shell
+sudo zypper in neovim
+```
+
+### Visual Studio Code (aka VS Code)
+Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. Users can change the theme, keyboard shortcuts, preferences, and install extensions that add functionality. 
+
+Arch Linux, Manjaro:
+```shell
+sudo pacman -S code
+```
+
+Debian, Ubuntu, Linux Mint:
+```shell
+sudo apt install code
+```
+
+CentOS, RHEL, Fedora:
+```shell
+sudo dnf install code
+```
+
+## System Fetch
+System Fetch, is very useful tools for extracting essential details on your Linux system OS.
+
+### screenfetch
+screenfetch is a "Bash Screenshot Information Tool". This handy Bash script can be used to generate one of those nifty terminal theme information + ASCII distribution logos you see in everyone's screenshots nowadays. It will auto-detect your distribution and display an ASCII version of that distribution's logo and some valuable information to the right. There are options to specify no ASCII art, colors, taking a screenshot upon displaying info, and even customizing the screenshot command! This script is very easy to add to and can easily be extended. It’s very easy to use. Simply run the following command in terminal:
+
+Usage:
+```shell
+screenfetch
+```
+
+Arch Linux, Manjaro:
+```shell
+sudo pacman -S screenfetch 
+```
+
+Debian, Ubuntu, Linux Mint:
+```shell
+sudo apt install screenfetch 
+```
+
+Fedora:
+```shell
+sudo dnf install screenfetch
+```
+
+### neofetch
+Neofetch is a system information tool written in the Bash shell scripting language. On the left side is always a logo of the distribution, rendered in ASCII art. Unlike a system monitor, the tool only features a static display of the computer's basic hardware and software configurations and their versions, typically operating system, the host (namely the technical name of the machine), uptime, package managers, the shell, display resolution, desktop environment, window manager, themes and icons, the computer terminal, CPU, GPU, and RAM. Neofetch can also display images on the terminal with w3m-img in place of the ASCII logo art. Neofetch hasn't been updated and appears to be inactive since about December 9th, 2021. It’s very easy to use. Simply run the following command in terminal:
+
+Usage:
+```shell
+neofetch
+```
+
+Arch Linux, Manjaro:
+```shell
+sudo pacman -S neofetch 
+```
+
+Debian, Ubuntu, Linux Mint:
+```shell
+sudo apt install neofetch 
+```
+
+Fedora:
+```shell
+sudo dnf install neofetch
+```
