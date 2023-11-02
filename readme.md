@@ -357,8 +357,8 @@ but no Tracking from Microsoft.
 + VS Code: https://code.visualstudio.com as a backup or read-only viewer when we are working on multiple projects concurrently.
 + Sublime Text: [sublimetext.com](https://www.sublimetext.com) - fast and free-ish 
   (you will be reminded to purchase a license ... but the license is perpetual not annual!)
-  
-  
++ CodeLobster: [codelobster.com](https://codelobster.com) - free cross-platform editor with plug-ins for all popular frameworks 
+   
 
 
 ### Basic text editor setup
